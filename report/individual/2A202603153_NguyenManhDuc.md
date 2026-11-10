@@ -22,7 +22,7 @@ drive_017.jpg chưa chốt vì ảnh mờ, điền quyết định thực tế n
 
 - Số file nhãn train:50
 - Kết quả checker và lỗi đã xử lý:đạt cấu trúc 50/50 file, chuyển ID lớp từ bản export CVAT và thống nhất ánh xạ với cấu hình cuối
-- Danh sách ít nhất 10 ảnh đã rà bằng mắt:drive_001.jpg, drive_002.jpg, drive_003.jpg, drive_004.jpg, drive_005.jpg, drive_006.jpg, drive_007.jpg, drive_008.jpg, drive_009.jpg, drive_010.jpg, drive_011.jpg, drive_0017.jpg, drive_019.jpg
+- Danh sách ít nhất 10 ảnh đã rà bằng mắt:drive_001.jpg, drive_002.jpg, drive_003.jpg, drive_004.jpg, drive_005.jpg, drive_006.jpg, drive_007.jpg, drive_008.jpg, drive_009.jpg, drive_010.jpg, drive_011.jpg, drive_017.jpg, drive_019.jpg
 - Lỗi bỏ sót/box/class phát hiện khi rà và cách sửa:phát hiện nhiều box quá rộng, kéo lại các cạnh box cho sát phần xe. Với các xe bị che nhau, điều chỉnh box cho từng xe 
 - Commit khóa nhãn ban đầu: 09dd480
 
@@ -40,7 +40,7 @@ drive_017.jpg chưa chốt vì ảnh mờ, điền quyết định thực tế n
 | passed |false |true |
 
 [Kết quả đánh giá annotation](../../outputs/annotation_evaluation.json)
-Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
+
 
 ## 5. Kết quả YOLO
 
@@ -60,7 +60,7 @@ Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi �
 | mAP50 |0.5808 |
 | mAP50–95 |0.4103 |
 
-Đặt cả 2 folder `assets/eval_predictions/` và `assets/yolo26_runs/` (giải nén từ `day2_colab_outputs.zip`) cạnh báo cáo và dẫn link tương đối. Không chỉ ghi số; chỉ ra ít nhất một ảnh và vật thể cụ thể.
+
 
 Trả lời bốn câu hỏi cuối notebook:
 
